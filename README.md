@@ -12,6 +12,11 @@ cd blog-site && npm install
 npx hexo generate
 ```
 
+### write post
+``` shell
+cd blog-site && npx hexo new post '<post name>'
+```
+
 ### run
 ``` shell
 cd blog-site && npx hexo server
